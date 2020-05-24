@@ -20,6 +20,6 @@ steps:
     location: 'Australia Southeast'
     templateLocation: 'Linked artifact'
     csmFile: 'CreateWebApp/azuredeploy.json'
-    overrideParameters: '-projectName pipelinetest -linkedTemplateUri https://raw.githubusercontent.com/wintermute000/pipelinetest-repo/master/CreateWebApp/linkedStorageAccount.json'
+    overrideParameters: '-projectName bender000 -linkedTemplateUri https://raw.githubusercontent.com/wintermute000/pipelinetest-repo/master/CreateWebApp/linkedStorageAccount.json'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
